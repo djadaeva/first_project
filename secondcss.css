@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(237, 234, 244, 1);
+  font-family: "Ubuntu", sans-serif;
+  color: rgba(101, 106, 124, 1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0vw 10vw;
+}
+.heading {
+  display: inline-block;
+  margin: 30px auto 30px 30px;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(32, 41, 72, 1);
+}
+.col {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(192, 185, 207, 1);
+}
+.header {
+  margin: 2vh 0vh;
+  display: flex;
+}
+.logotype {
+  margin-right: 30px;
+}
+.dark-mode {
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: rgba(101, 106, 124, 1);
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+}
+.dark-mode:hover {
+  color: rgba(220, 216, 238, 1);
+  background-color: rgba(49, 43, 79, 1);
+}
+.maincontent {
+  width: 90vw;
+  margin: 0px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-top: 15px;
+}
+
+.col-2 {
+  margin-left: 30px;
+}
+
+.user {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 30px;
+}
+.userpic {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.user span {
+  margin-left: 0px;
+}
+.menulist li {
+  list-style: none;
+  margin: auto 30px;
+}
+.menulist li a {
+  text-decoration: none;
+}
+li a:link,
+li a:visited {
+  color: rgba(101, 106, 124, 1);
+}
+li a:active,
+li a:hover {
+  color: rgba(57, 16, 119, 1);
+  font-weight: 400;
+}
+.list {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.iconholder {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.iconholder img {
+  height: 100%;
+  width: auto;
+}
+.list_text_numbers {
+  padding-left: 5px;
+}
+#settings {
+  /*margin-top: 350px;*/
+  align-self: flex-end;
+}
+
+.centralcontent {
+  display: flex;
+  flex-direction: column;
+}
+.up-content {
+  display: flex;
+}
+.bottom-content {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.bookcard_img {
+  height: 190px;
+  width: auto;
+  margin: 0px auto;
+  padding: 0px 70px;
+  overflow: hidden;
+}
+.bookcard_img img {
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+}
+.bookcard_text span {
+  display: block;
+  margin: 20px 0px 20px 30px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+}
+#book_name {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: rgba(32, 41, 72, 1);
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+.side_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.small_card_holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.small_card_up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 30px;
+}
+.small_card_img {
+  width: 50px;
+  height: 50px;
+}
+.small_card_img img {
+  width: 100%;
+  height: 100%;
+}
+.small_card_big_numbers {
+  font-weight: 500;
+  font-size: 34px;
+  color: #7e4cc8;
+  margin-left: 15px;
+}
+.small_card span {
+  display: inline-block;
+  margin: 0px 0px 15px 30px;
+}
+.calendar {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.calendar_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.axis {
+  margin-right: 10px;
+}
+.calendar_content_columns {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.columns {
+  display: flex;
+  justify-content: stretch;
+  flex-direction: row-reverse;
+  transform: rotate(180deg);
+}
+.columns_items {
+  height: 110px;
+  width: 30px;
+  background-color: rgba(221, 211, 241, 1);
+  border-radius: 0px 0px 5px 5px;
+  margin-left: 17px;
+  vertical-align: bottom;
+}
+.columns_items span {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+.columns_items:link,
+.columns_items:visited {
+  background-color: rgba(221, 211, 241, 1);
+}
+.columns_items:active,
+.columns_items:hover {
+  background-color: rgba(126, 76, 200, 1);
+}
+#item1 {
+  height: 80%;
+}
+#item2 {
+  height: 20%;
+}
+
+table {
+  margin: auto 30px 30px 30px;
+}
+
+td,
+th {
+  font-weight: 400;
+  text-align: start;
+  padding-right: 30px;
+  padding-bottom: 18px;
+  line-height: 18px;
+}
+.table_bookname {
+  font-weight: 500;
+  color: rgba(32, 41, 72, 1);
+}
+.fav-genres {
+  width: 240px;
+}
+.ring-chart {
+  /*background: ;
+  background-image: linear-gradient(to right, transparent 0%, );*/
+  background: conic-gradient(#ef8bbd 40%, #7e4cc8 0);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.logotype {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logotype span {
+  margin: 0px;
+  padding-left: 10px;
+}
+.genres-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.genre {
+  display: flex;
+}
+.genre span {
+  display: inline-block;
+}
+#square1 {
+  background-color: #ef8bbd;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+#square2 {
+  background-color: #7e4cc8;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}

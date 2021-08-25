@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="secondcss.css" />
+    <title>My first project</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logotype">
+        <img src="images/logo.svg" alt="logo" />
+        <span class="heading">Аллитерация</span>
+      </div>
+      <button class="dark-mode col">Сменить тему</button>
+    </div>
+
+    <div class="maincontent">
+      <div class="leftmenu col col-1">
+        <div class="user">
+          <div class="userpic">
+            <img src="images/userphoto.svg" alt="userphoto" />
+          </div>
+          <span class="heading">Дарья Джадаева</span>
+        </div>
+        <ul class="menulist">
+          <li>
+            <a href="#">
+              <div class="list">
+                <div class="iconholder">
+                  <img src="images/book.svg" alt="bookicon" />
+                </div>
+                <div class="list_text">
+                  Все книги
+                  <span class="list_text_numbers">108</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="list">
+                <div class="iconholder">
+                  <img src="images/music-player 1.svg" alt="music-player" />
+                </div>
+                <div class="list_text">
+                  Аудиокниги
+                  <span class="list_text_numbers">10</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="list">
+                <div class="iconholder">
+                  <img src="images/users 1.svg" alt="users/friends" />
+                </div>
+                <div class="list_text">
+                  Друзья
+                  <span class="list_text_numbers">12</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="list">
+                <div class="iconholder">
+                  <img src="images/agenda 1.svg" alt="bookmark" />
+                </div>
+                <div class="list_text">
+                  Закладки
+                  <span class="list_text_numbers">56</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="list">
+                <div class="iconholder">
+                  <img src="images/locked 1.svg" alt="locked" />
+                </div>
+                <div class="list_text">Конфеденциальность</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="list">
+                <div class="iconholder">
+                  <img src="images/upload 1.svg" alt="upload" />
+                </div>
+                <div class="list_text">Загрузить книги</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="list">
+                <div class="iconholder">
+                  <img src="images/logout (1) 1.svg" alt="log" />
+                </div>
+                <div class="list_text">Выйти</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="list" id="settings">
+                <div class="iconholder">
+                  <img src="images/settings 1.svg" alt="settings" />
+                </div>
+                <div class="list_text">Настройки</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="centralcontent col-2">
+        <div class="up-content">
+          <div class="bookcard col">
+            <span class="heading">Читаю сейчас</span>
+            <div class="bookcard_img">
+              <img src="images/bookimg.png" alt="book cover image" />
+            </div>
+            <div class="bookcard_text">
+              <span>Автор:Шон Байтелл</span>
+              <span id="book_name">Дневник книготорговца</span>
+            </div>
+          </div>
+          <div class="side_content">
+            <div class="small_card_holder">
+              <div class="small_card col">
+                <div class="small_card_up">
+                  <div class="small_card_img">
+                    <img src="images/smallcardbook.svg" alt="open book" />
+                  </div>
+                  <div class="small_card_big_numbers">320</div>
+                </div>
+                <span class="small_card_txt">Страниц сегодня</span>
+              </div>
+              <div class="small_card col">
+                <div class="small_card_up">
+                  <div class="small_card_img">
+                    <img src="images/clock.svg" alt="clock" />
+                  </div>
+                  <div class="small_card_big_numbers">4</div>
+                </div>
+                <span class="small_card_txt">Часа сегодня</span>
+              </div>
+              <div class="small_card col">
+                <div class="small_card_up">
+                  <div class="small_card_img">
+                    <img src="images/bookshelf.svg" alt="bookshelf" />
+                  </div>
+                  <div class="small_card_big_numbers">102</div>
+                </div>
+                <span class="small_card_txt">Всего книг</span>
+              </div>
+            </div>
+            <div class="calendar col">
+              <span class="heading">В среднем часов в месяц</span>
+              <div class="calendar_content">
+                <span class="axis"
+                  >7<br />6<br />5<br />4<br />3<br />2<br />1<br
+                /></span>
+                <div class="calendar_content_columns">
+                  <div class="columns">
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                    <a href="#"><div class="columns_items"></div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-content">
+          <div class="book_table col">
+            <span class="heading">Любимые книги</span>
+            <table>
+              <tr>
+                <th>№</th>
+                <th>Название книги</th>
+                <th>Автор</th>
+                <th>Объем</th>
+                <th>Категория</th>
+              </tr>
+              <tr>
+                <th>1</th>
+                <th class="table_bookname">Джен Эйр</th>
+                <th>Шарлота Бронте</th>
+                <th>456</th>
+                <th>Классика</th>
+              </tr>
+              <tr>
+                <th>2</th>
+                <th class="table_bookname">Одиссея</th>
+                <th>Автор</th>
+                <th>347</th>
+                <th>Классика</th>
+              </tr>
+              <tr>
+                <th>3</th>
+                <th class="table_bookname">Эгоистичный ген</th>
+                <th>Ричард Докинз</th>
+                <th>896</th>
+                <th>Научпоп</th>
+              </tr>
+              <tr>
+                <th>4</th>
+                <th class="table_bookname">
+                  Sapiens. Краткая<br />
+                  история человечества
+                </th>
+                <th>Юваль Ной Харари</th>
+                <th>502</th>
+                <th>Научпоп</th>
+              </tr>
+            </table>
+          </div>
+          <div class="fav-genres col">
+            <span class="heading">Любимые жанры</span>
+
+            <div class="ring-chart"></div>
+            <div class="genres-holder">
+              <div class="genre">
+                <div id="square1"></div>
+                <span>Классика</span>
+              </div>
+              <div class="genre">
+                <div id="square2"></div>
+                <span>Научпоп</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
